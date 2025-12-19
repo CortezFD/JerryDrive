@@ -25,13 +25,14 @@ body {
 header,
 footer {
     background: linear-gradient(to bottom, white, black);
-    padding: 20px;
+    padding: 10px;
     overflow: hidden;
 }
 
 header h1 {
     font-family: 'FuturaPT', sans-serif;
     margin-top: 20px;
+    font-size: larger;
 }
 
 header img {
