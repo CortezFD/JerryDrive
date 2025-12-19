@@ -87,6 +87,8 @@ figure img {
     max-width: 100%;
     float: left;
     margin: 0 15px 10px 0;
+    width: 500px;
+    display: block; margin: auto;
 }
 
 figcaption {
