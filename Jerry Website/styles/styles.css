@@ -64,7 +64,10 @@ nav ul {
 nav li {
     margin: 0 10px;
 }
-
+#jerrywelcome {
+    max-width: none;
+    padding-left: none;
+}
 nav a {
     color: white;
     text-decoration: none;
