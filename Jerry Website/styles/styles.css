@@ -28,6 +28,9 @@ footer {
     padding: 10px;
     overflow: hidden;
 }
+#long {
+    width:150px;
+}
 video {
     width: 200px;
 }
