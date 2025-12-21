@@ -1,0 +1,139 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'FuturaPT';
+    src: url('../embed font/futura-pt-webfont.woff') format('woff');
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #eee;
+}
+
+.site-wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background: linear-gradient(to bottom, white, black);
+    padding: 10px;
+    overflow: hidden;
+}
+#long {
+    width:150px;
+}
+#wide {
+    width: 425px;
+}
+header h1 {
+    font-family: 'FuturaPT', sans-serif;
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+header img {
+    width: 80px;
+    float: right;
+    margin-left: 20px;
+}
+.babycenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    background-color: #000;
+    height: 35px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+#jerrywelcome {
+    max-width: none;
+    padding-left: none;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav a:hover,
+nav a.active {
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.home-layout {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.home-layout figure {
+    flex: 2;
+}
+
+.home-layout aside {
+    
+}
+
+figure {
+    margin: 15px 0;
+}
+
+figure img {
+   
+    width: 500px;
+   
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.favorites {
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.favorites ul {
+    margin-left: 20px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
