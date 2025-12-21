@@ -28,7 +28,9 @@ footer {
     padding: 10px;
     overflow: hidden;
 }
-
+video {
+    width: 200px;
+}
 header h1 {
     font-family: 'FuturaPT', sans-serif;
     margin-top: 10px;
