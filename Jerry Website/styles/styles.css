@@ -107,6 +107,7 @@ figure img {
     max-width: 100%;
     width: 500px;
     display: block;
+    padding-left: 8em;
 }
 
 figcaption {
